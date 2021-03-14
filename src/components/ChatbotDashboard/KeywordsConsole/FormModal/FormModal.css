@@ -1,0 +1,31 @@
+.formModal__form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -15px;
+}
+
+.formModal__heading {
+    margin-bottom: 10px;
+    color: #3f51b5;
+    font-weight: 600;
+}
+
+.formModal__inputField {
+    margin: 5px 0 !important;
+}
+
+.MuiFormGroup-row {
+    align-items: center;
+}
+
+.formModal__dataFormDynamicInput {
+    margin-top: 10px;
+}
+
+.formModal__dataFormGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}

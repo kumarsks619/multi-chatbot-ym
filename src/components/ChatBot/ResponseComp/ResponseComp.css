@@ -1,0 +1,45 @@
+.responseComp {
+    text-align: left;
+}
+
+.responseComp__message {
+    background-color: #376b7e;
+    font-size: 15px;
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.responseComp__optionsWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.responseComp__OptionBtn {
+    margin: 10px 10px 0 0 !important;
+}
+
+.responseComp__linksWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.responseComp__linkBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+    margin-top: 10px !important;
+    color: #fff !important;
+    background-color: rgb(48, 165, 93) !important;
+    font-size: 10px !important;
+    width: 100% !important;
+}
+
+.responseComp__linkBtn a {
+    color: #fff;
+    text-transform: lowercase;
+    font-size: 1rem;
+}

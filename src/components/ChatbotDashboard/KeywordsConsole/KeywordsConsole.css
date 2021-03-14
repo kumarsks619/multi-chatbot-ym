@@ -1,0 +1,31 @@
+.keywordsConsole {
+    background-color: #fff;
+    max-width: 1200px;
+    width: 100%;
+    margin: 30px auto 40px;
+    height: 80vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    box-shadow: 5px 5px 10px #ddd, -5px -5px 10px #ddd;
+}
+
+.keywordsConsole__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.keywordsConsole__heading {
+    display: inline-block;
+    font-size: 22px;
+    color: #3f51b5;
+    font-weight: 500;
+}
+
+.keywordsConsole__keywordsContainer {
+    overflow: auto;
+    margin-top: 20px;
+}

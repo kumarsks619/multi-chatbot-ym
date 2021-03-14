@@ -1,0 +1,115 @@
+.queriesBoard {
+    background-color: #fff;
+    max-width: 1200px;
+    width: 100%;
+    margin: 40px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    border: 1px solid #ddd;
+    box-shadow: 5px 5px 10px #ddd, -5px -5px 10px #ddd;
+}
+
+.queriesBoard__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.queriesBoard__header > h2 {
+    display: inline-block;
+    font-size: 22px;
+    color: #3F51B5;
+    font-weight: 500;
+}
+
+.queriesBoard__datePicker .MuiTextField-root {
+    width: 200px !important;
+}
+
+.queriesBoard__tableWrapper {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    overflow-y: auto;
+}
+
+.queriesBoard__table {
+    width: 100%;
+}
+
+.queriesBoard__tableHeader {
+    background-color: #ddd;
+}
+
+.queriesBoard__table th {
+    padding: 20px 0;
+}
+
+.queriesBoard__table tr:nth-child(even) {
+    background-color: rgba(238, 238, 238, 0.664);
+}
+
+.queriesBoard__row:hover {
+    background-color: #f5005617 !important;
+}
+
+.queriesBoard__countCol {
+    text-align: center;
+    width: 100px;
+}
+
+.queriesBoard__query {
+    padding: 10px;
+}
+
+.queriesBoard__query p {
+    word-wrap: break-word;
+}
+
+.queriesBoard__dateTime {
+    width: 300px;
+}
+
+.queriesBoard__dateTime .MuiAccordion-root {
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.queriesBoard__current {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.queriesBoard__history {
+    width: 100%;
+}
+
+.queriesBoard__historyEntity {
+    display: flex;
+    justify-content: space-between;
+}
+
+.queriesBoard__actions {
+    width: 100px;
+}
+
+
+.queriesBoard__countCol > span {
+    background-color: #f50057;
+    padding: 10px;
+    border-radius: 45%;
+    font-weight: 800;
+    color: #fff;
+}
+
+.queriesBoard__colCentre {
+    text-align: center;
+}
+
+.queriesBoard__history {
+    display: flex;
+    flex-direction: column;
+}

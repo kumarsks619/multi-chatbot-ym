@@ -1,0 +1,41 @@
+.entity {
+    background-color: rgba(221, 221, 221, 0.473) !important;
+    margin: 0 15px 10px 15px;
+}
+
+.entity__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    margin-top: -10px;
+}
+
+.entity__label {
+    font-size: 14px;
+    margin: 0;
+    color: rgba(20, 20, 20, 0.555);
+}
+
+.entity__spanWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.entity__spanWrapper > span {
+    padding: 10px 15px;
+    margin: 5px 10px 5px 0;
+}
+
+.entity__supportKeywordSpan {
+    border-radius: 3px;
+    background-color: rgb(134, 150, 238);
+}
+
+.entity__optionSpan {
+    border-radius: 20px;
+    background-color: rgb(246, 170, 253);
+}
