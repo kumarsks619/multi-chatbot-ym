@@ -5,8 +5,8 @@ Get the API keys and then in this repo, go to src > config > index.js and paste 
 
 ### Step 2)
 Only 2 files are important (other than the config file) for the integaration purpose.
-File 1: src > components > ChatBot > FetchComp > index.js
-File 2: src > components > ChatbotDasboard > index.js
+### File 1: src > components > ChatBot > FetchComp > index.js
+### File 2: src > components > ChatbotDasboard > index.js
 
 ### STEP 3)
 The interagation part of this multi-bot is a bit complex. Please contact to get the assitance.
